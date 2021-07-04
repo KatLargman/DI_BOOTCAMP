@@ -1,0 +1,200 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: whitesmoke;
+ font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+
+}
+
+.wrapper-right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(211, 206, 206);
+  width:400px;
+  /*height: 100px; */
+  padding: 30px;
+}
+
+.name-details {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+align-self: center;
+
+ 
+}
+
+.name-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 2px solid beige;
+
+}
+
+.break-line {
+  border-bottom: 2px solid grey;
+}
+
+.details {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.social-media li  {
+margin: 10px;
+list-style-type: none;
+}
+
+.social-media i {
+  color: black;
+}
+
+.main-left-side {
+  /*background-color: bisque;*/
+  /*height: 100%;*/
+  width:100%;
+  flex-grow: 2;
+font-size: 15px;
+  
+}
+
+.education {
+  max-width: 1000px;
+ margin: 30px auto;
+
+}
+
+.max-security-text {
+  list-style-type: circle;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+  .wrapper-right-side {
+    width:200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      background-color: beige;
+      /*height: 100%;*/
+      padding: 10px;
+      font-size: 12px;
+
+  }
+
+
+  .education {
+
+   margin: 90px 50px;
+  
+  }
+
+  .name-details img {
+    width: 100px;
+    height: 100px;
+
+  
+  }
+
+}
+
+@media only screen and (max-width: 768px)
+{
+  .wrapper {
+   font-size: 10px;
+  
+  }
+
+  .wrapper-right-side {
+    width:180px;
+    /*height: 100%;*/
+
+  }
+
+  .name-details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid beige;
+  
+  }
+
+  .education {
+   margin: 60px 10px;
+  font-size: 10px;
+  }
+
+  .main-left-side {
+    background-color: rgb(225, 228, 231);
+    /*height: 100%;*/
+    max-width: 700px;
+    flex-grow: 2;
+ 
+    
+  }
+
+ 
+}
+
+@media only screen and (max-width: 375px)
+{
+
+  .wrapper {
+    display: flex;
+    background-color: beige;
+    height: 100%;
+  
+  }
+  
+  .wrapper-right-side {
+ 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: beige;
+      width:140px;
+      margin-bottom: 600px;
+      font-size: 9px;
+  
+  }
+
+ 
+
+  .name-details img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid beige;
+  
+  }
+
+
+
+}
