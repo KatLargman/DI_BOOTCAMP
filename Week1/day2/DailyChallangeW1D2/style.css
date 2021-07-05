@@ -1,0 +1,84 @@
+/** MENU */
+
+#menu-wrapper
+{
+  background: black;
+  overflow:hidden;
+}
+
+#menu {
+  overflow: hidden;
+  height: 100px;
+  float:left;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+  line-height: normal;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu a {
+  display: block;
+  letter-spacing: 1px;
+  padding: 0px 40px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.80em;
+  line-height: 100px;
+  border: none;
+  color: #FFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+  text-decoration: none;
+}
+
+#menu .current_page_item a {
+  background: black;
+}
+
+#logo{
+  width:1px;
+  height: 1px;
+  float: right;
+  margin-top: 15px;
+  padding-right: 100px;
+  background-size:     cover;
+}
+body 
+{
+    background-image: url(america.jpg); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size:     cover;
+    padding: 0;
+    margin: 0;
+
+    @media only screen and (min-width: 600px) {
+      div {
+          width: 100%;
+      }
+  }
+  
+  
+  @media only screen and (min-width: 900px) {
+      div {
+          width: 50%;
+          float: left;
+      }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+      div {
+          width: 25%;
+          float: left;
+      }
+  }
