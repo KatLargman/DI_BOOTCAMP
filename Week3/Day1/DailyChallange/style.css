@@ -1,0 +1,32 @@
+.Mercury {
+	background: rgb(100,120,40);
+	color: white;
+}
+.Venus {
+	background: rgb(10,120,40);
+	color: white;
+}
+.Earth {
+	background: rgb(10,120,140);
+	color: white;
+}
+.Mars {
+	background: rgb(10,160,140);
+	color: white;
+}
+.Jupiter {
+	background: rgb(100,160,140);
+	color: white;
+}
+.Saturn {
+	background: rgb(10,10,10);
+	color: white;
+}
+.Uranus {
+	background: rgb(50,10,30);
+	color: white;
+}
+.Neptune {
+	background: rgb(50,110,30);
+	color: white;
+}
