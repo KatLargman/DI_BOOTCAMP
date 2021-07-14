@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(20, 20, 20);
+}
+
+#side {
+	display: grid;
+	grid-gap: 5px; /* gap bethween elements in grid*/
+	grid-template-columns: repeat(3, 1fr); /* 3 columns in grid */
+	grid-template-rows: repeat(8, 1fr);  /* 8 rows in grid */
+
+	height: 100vh;
+	width: 20%;
+	float: left;
+
+	background-color: rgb(15, 12, 12);
+	padding: 5px;
+}
+
+#canvas {
+	display: grid; 
+	grid-template-columns: repeat(60, 1fr);
+	height: 100vh;
+	padding: 5px 5px 5px 0;
+}
+
+#side > * {
+	border: 1px rgb(8, 3, 3) solid; 
+}
+
+#canvas > * {
+	border: 1px rgb(36, 34, 34) solid;
+	background-color: beige;
+}
+
+button {
+	grid-column: 1/4; 
+
+	background-color: rgb(243, 212, 212); /* Green */
+	border: none;
+	border-radius: 8px;
+	color:black;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
