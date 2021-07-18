@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lightblue;
+}
+
+.fill {
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  position: relative; 
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: 3px red solid;
+  background-color: pink;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hovered {
+  background-color: #ccc;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}
