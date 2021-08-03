@@ -1,0 +1,9 @@
+-- Create 3 different tables, each one with a different relationship.
+CREATE TABLE userTable1 (iD int NOT NULL, lastname varchar, firstname varchar, PRIMARY KEY(id)) 
+CREATE TABLE userTable2 (iD int NOT NULL, lastname varchar, firstname varchar, PRIMARY KEY(id)) 
+CREATE TABLE userTable3 (iD int NOT NULL, lastname varchar, firstname varchar, PRIMARY KEY(id)) 
+-- Join them with all the types of PostgreSQL Joins you’ve learned.
+SELECT * FROM userTable3 INNER JOIN userTable1 ON userTable3.id = userTable1.id INNER join userTable2 ON userTable3.id=userTable2.id 
+SELECT * FROM userTable3 FULL OUTER JOIN userTable1 ON userTable3.id = userTable1.id FULL OUTER join userTable2 ON userTable3.id=userTable2.id 
+SELECT * FROM userTable3 LEFT JOIN userTable1 ON userTable3.id = userTable1.id LEFT join userTable2 ON userTable3.id=userTable2.id 
+SELECT * FROM userTable3 RIGHT JOIN userTable1 ON userTable3.id = userTable1.id RIGHT join userTable2 ON userTable3.id=userTable2.id
